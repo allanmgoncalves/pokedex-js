@@ -1,0 +1,63 @@
+:root {
+	--black: #000000;
+	--white: #ffffff;
+	--gray-50: #f9fafb;
+	--gray-100: #f3f4f6;
+	--gray-200: #e5e7eb;
+	--gray-300: #d1d5db;
+	--gray-400: #9ca3af;
+	--gray-500: #6b7280;
+	--gray-600: #4b5563;
+	--gray-700: #374151;
+	--gray-800: #1f2937;
+	--gray-900: #111827;
+	--gray-950: #030712;
+
+	--red-nintendo: #e4000f;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:focus {
+	outline: 0;
+}
+
+body {
+	background-color: var(--gray-100);
+	color: var(--gray-700);
+	-webkit-font-smoothing: antialiased;
+}
+
+body,
+input textarea,
+button {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+main {
+	width: 100%;
+	min-height: calc(100vh - 2rem);
+	max-width: 960px;
+	margin: 0;
+	padding: 1rem;
+
+	background: url("../images/pokeball_detail.svg");
+	background-position: right -10% top -20%;
+	background-repeat: no-repeat;
+	background-size: 320px;
+	background-color: var(--white);
+}
+
+@media screen and (min-width: 576px) {
+	main {
+		margin: 1rem auto;
+		padding: 1.5rem;
+		border-radius: 1rem;
+	}
+}
