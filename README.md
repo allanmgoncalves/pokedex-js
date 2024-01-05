@@ -1,1 +1,1 @@
-# pokedex-js
+# Pokédex - Study project about javascript
