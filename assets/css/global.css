@@ -14,6 +14,25 @@
 	--gray-950: #030712;
 
 	--red-nintendo: #e4000f;
+
+	--normal: #a6a877;
+	--grass: #77c850;
+	--fire: #ee7f30;
+	--water: #678fee;
+	--electric: #f7cf2e;
+	--ice: #98d5d7;
+	--ground: #dfbf69;
+	--flying: #a98ff0;
+	--poison: #a040a0;
+	--fighting: #bf3029;
+	--psychic: #f65687;
+	--dark: #725847;
+	--rock: #b8a137;
+	--bug: #a8b720;
+	--ghost: #6e5896;
+	--steel: #b9b7cf;
+	--dragon: #6f38f6;
+	--fairy: #f9aec7;
 }
 
 * {
@@ -35,7 +54,7 @@ body {
 body,
 input textarea,
 button {
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 1rem;
 }
@@ -47,8 +66,8 @@ main {
 	margin: 0;
 	padding: 1rem;
 
-	background: url("../images/pokeball_detail.svg");
-	background-position: right -10% top -20%;
+	background: url('../images/pokeball_detail.svg');
+	background-position: right -32px top -64px;
 	background-repeat: no-repeat;
 	background-size: 320px;
 	background-color: var(--white);
